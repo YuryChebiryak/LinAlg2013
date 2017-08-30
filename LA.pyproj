@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c5682b05-8e65-4bf8-af1f-8556cfdad846}</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>machine_learning_lab.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>LA</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>2af0f10d-7135-4994-9156-5d01c9c11b7e</InterpreterId>
+    <InterpreterVersion>3.3</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="bitutil.py" />
+    <Compile Include="cancer_data.py" />
+    <Compile Include="echelon.py" />
+    <Compile Include="factoring_lab.py" />
+    <Compile Include="factoring_support.py" />
+    <Compile Include="hw3working.py" />
+    <Compile Include="dictutil.py" />
+    <Compile Include="ecc_lab.py" />
+    <Compile Include="geometry_lab.py" />
+    <Compile Include="GF2.py" />
+    <Compile Include="hw0.py" />
+    <Compile Include="hw1.py" />
+    <Compile Include="hw1working.py" />
+    <Compile Include="hw2.py" />
+    <Compile Include="hw3.py" />
+    <Compile Include="hw4.py" />
+    <Compile Include="hw4working.py" />
+    <Compile Include="hw5.py" />
+    <Compile Include="hw5solving.py" />
+    <Compile Include="hw6.py" />
+    <Compile Include="hw7.py" />
+    <Compile Include="image.py" />
+    <Compile Include="image_mat_util.py" />
+    <Compile Include="inverse_index.py" />
+    <Compile Include="inverse_index_lab.py" />
+    <Compile Include="machine_learning_lab.py" />
+    <Compile Include="mat.py" />
+    <Compile Include="matutil.py" />
+    <Compile Include="orthogonalization.py" />
+    <Compile Include="orthonormalization.py" />
+    <Compile Include="perspective_lab.py" />
+    <Compile Include="plotting.py" />
+    <Compile Include="png.py" />
+    <Compile Include="politics_lab.py" />
+    <Compile Include="politics_lab_debug.py" />
+    <Compile Include="PythonApplication1.py" />
+    <Compile Include="python_lab.py" />
+    <Compile Include="QR.py" />
+    <Compile Include="secret_sharing_lab.py" />
+    <Compile Include="submit_ecc_lab.py" />
+    <Compile Include="submit_factoring_lab.py" />
+    <Compile Include="submit_geometry_lab.py" />
+    <Compile Include="submit_hw0.py" />
+    <Compile Include="submit_hw1.py" />
+    <Compile Include="submit_hw2.py" />
+    <Compile Include="submit_hw3.py" />
+    <Compile Include="submit_hw4.py" />
+    <Compile Include="submit_hw5.py" />
+    <Compile Include="submit_hw6.py" />
+    <Compile Include="submit_hw7.py" />
+    <Compile Include="submit_inverse_index_lab.py" />
+    <Compile Include="submit_machine_learning_lab.py" />
+    <Compile Include="submit_mat.py" />
+    <Compile Include="submit_perspective_lab.py" />
+    <Compile Include="submit_politics_lab.py" />
+    <Compile Include="submit_python_lab.py" />
+    <Compile Include="submit_secret_sharing_lab.py" />
+    <Compile Include="submit_vec.py" />
+    <Compile Include="tester_classes.py" />
+    <Compile Include="test_mat.py" />
+    <Compile Include="test_vec.py" />
+    <Compile Include="triangular.py" />
+    <Compile Include="vec.py" />
+    <Compile Include="vecutil.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cit.png" />
+    <Content Include="independence.pyc" />
+    <Content Include="solver.pyc" />
+    <Content Include="stories_small.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
